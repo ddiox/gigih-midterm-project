@@ -180,8 +180,8 @@ Create a new comment with specified videoID.
 - **URL Params**  
   None
 - **Data Params**  
-  username
-  comment
+  username,
+  comment,
   videoID
 - **Headers**  
   None
