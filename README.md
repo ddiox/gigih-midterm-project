@@ -16,4 +16,9 @@ we can see that there are 3 collections in the database:
 
 ![alt text](https://github.com/ddiox/gigih-midterm-project/blob/main/docs/project%20structure.png?raw=true)
 
-- Test
+- /db is used to set up and establish a connection to the database in a Node.js application using MongoDB.
+- /models would contain all the schema files.
+- /controllers would contain all the functions for the APIs.
+- /routes would contain all the routes using Express Router.
+- index.js would basically be the entry point of the Express application and should be as minimal as possible.
+- .env is used to store environment variables in a Node.js application.
