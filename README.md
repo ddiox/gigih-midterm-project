@@ -22,3 +22,16 @@ we can see that there are 3 collections in the database:
 - /routes would contain all the routes using Express Router.
 - index.js would basically be the entry point of the Express application and should be as minimal as possible.
 - .env is used to store environment variables in a Node.js application.
+
+## Video Endpoint
+
+- video object
+
+```
+{
+  "_id": ObjectId,
+  "title": String,
+  "description": String,
+  "thumbnailUrl": String
+}
+```
