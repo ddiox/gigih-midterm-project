@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const connectDB = require("./db/db");
@@ -6,7 +7,7 @@ const productRouter = require("./routes/product.routes");
 const commentRouter = require("./routes/comment.routes");
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT;
 
 // Connect to Database
 connectDB();
