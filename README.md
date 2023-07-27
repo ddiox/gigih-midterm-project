@@ -29,10 +29,10 @@ we can see that there are 3 collections in the database:
 
 ```
 {
-  "_id": ObjectId,
-  "title": String,
-  "description": String,
-  "thumbnailUrl": String
+    "_id": ObjectId,
+    "title": String,
+    "description": String,
+    "thumbnailUrl": String
 }
 ```
 
@@ -126,6 +126,20 @@ Returns all products with specified videoID.
         "Message": "Server Error"
     },
 ]
+```
+
+## Comment Endpoint
+
+- comment object
+
+```
+{
+    "_id": ObjectId,
+    "videoID": ObjectId,
+    "username": String,
+    "comment": String,
+    "timestamp": Date
+}
 ```
 
 ## **GET /videos/:videoID/comments**
