@@ -73,6 +73,22 @@ Returns all videos thumbnails.
 ]
 ```
 
+## Product Endpoint
+
+- product object
+
+```
+{
+    "_id": ObjectId,
+    "videoID": ObjectId,
+    "title": String,
+    "description": String,
+    "imageUrl": String,
+    "link": String,
+    "price": Float
+}
+```
+
 ## **GET /videos/:videoID/products**
 
 Returns all products with specified videoID.
