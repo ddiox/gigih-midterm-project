@@ -72,3 +72,42 @@ Returns all videos thumbnails.
     },
 ]
 ```
+
+## **GET /videos/:videoID/products**
+
+Returns all products with specified videoId.
+
+- **URL Params**  
+  videoID
+- **Data Params**  
+  None
+- **Headers**  
+  None
+- **Success Response:**
+  - Code: 200
+  - Content:
+
+```
+[
+    {
+        "_id": ObjectId,
+        "title": String,
+        "description": String,
+        "imageUrl": String,
+        "link": String,
+        "price": Float
+    },
+]
+```
+
+- **Error Response:**
+  - Code: 505
+  - Content:
+
+```
+[
+    {
+        "Message": "Server Error"
+    },
+]
+```
