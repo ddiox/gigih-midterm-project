@@ -67,7 +67,7 @@ Returns all videos thumbnails.
 
 ```
 {
-    "Message": "Server Error"
+    "message": "Server Error"
 }
 ```
 
@@ -120,7 +120,7 @@ Returns all products with specified videoID.
 
 ```
 {
-    "Message": "Server Error"
+    "message": "Server Error"
 }
 ```
 
@@ -169,6 +169,39 @@ Returns all comments with specified videoID.
 
 ```
 {
-    "Message": "Server Error"
+    "message": "Server Error"
+}
+```
+
+## **POST /submit-content**
+
+Create a new comment with specified videoID.
+
+- **URL Params**  
+  None
+- **Data Params**  
+  username
+  comment
+  videoID
+- **Headers**  
+  None
+- **Success Response:**
+  - Code: 201
+  - Content:
+
+```
+{
+    "success": true
+}
+```
+
+- **Error Response:**
+  - Code: 500
+  - Content:
+
+```
+{
+    "message": "Server Error",
+    "success": false
 }
 ```
