@@ -3,4 +3,8 @@ This repository contains the backend of the Tokopedia Play Clone App for Medium-
 
 ## Database Structure
 Database Structure using ERD diagram
-![alt text](https://github.com/ddiox/gigih-midterm-project/blob/main/docs/database%20structure.png?raw=true)
+![alt text](https://github.com/ddiox/gigih-midterm-project/blob/main/docs/database%20structure.png?raw=true)  
+we can see that there are 3 collections in the database:
+- videos
+- products
+- comments
