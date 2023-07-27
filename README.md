@@ -61,7 +61,7 @@ Returns all videos thumbnails.
 ]
 ```
 
-- **Success Response:**
+- **Error Response:**
   - Code: 505
   - Content:
 
