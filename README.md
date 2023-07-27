@@ -246,3 +246,7 @@ node index.js
 ```
 http://localhost:3000
 ```
+
+## Notes
+
+Don't forget to insert data into the videos, products, and comments collections manually via MongoShell or MongoDB Compass before testing the API.

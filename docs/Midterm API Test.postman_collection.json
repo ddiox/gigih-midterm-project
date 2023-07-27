@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "da623345-8e13-4ec9-9779-855f5df7d526",
+		"name": "Midterm API Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/videos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/videos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"videos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/videos/64c224198450a9ca369194f6/products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/videos/64c224198450a9ca369194f6/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"videos",
+						"64c224198450a9ca369194f6",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/submit-comment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"contoh_username 5\",\r\n    \"comment\": \"Ini adalah contoh komentar. 5\",\r\n    \"videoID\": \"64c224198450a9ca369194f6\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/submit-comment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"submit-comment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/videos/64c224198450a9ca369194f6/comments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/videos/64c224198450a9ca369194f6/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"videos",
+						"64c224198450a9ca369194f6",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
