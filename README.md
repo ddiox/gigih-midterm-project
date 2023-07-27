@@ -75,7 +75,7 @@ Returns all videos thumbnails.
 
 ## **GET /videos/:videoID/products**
 
-Returns all products with specified videoId.
+Returns all products with specified videoID.
 
 - **URL Params**  
   videoID
