@@ -8,3 +8,6 @@ we can see that there are 3 collections in the database:
 - videos
 - products
 - comments
+  
+## Project Structure
+![alt text](https://github.com/ddiox/gigih-midterm-project/blob/main/docs/project%20structure.png?raw=true) 
