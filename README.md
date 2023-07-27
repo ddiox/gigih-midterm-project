@@ -205,3 +205,42 @@ Create a new comment with specified videoID.
     "success": false
 }
 ```
+
+## How to run in local
+
+1. Clone this repository
+
+```
+git clone https://github.com/ddiox/gigih-midterm-project.git
+```
+
+2. Install dependencies
+
+```
+npm install
+```
+
+3. Copy .env.example to .env
+
+```
+cp .env.example .env // Linux User
+copy .env.example .env // Windows User
+```
+
+4. Open .env file and put your database connection url:
+
+```
+DATABASE_URL = mongodb://127.0.0.1:27017/put_your_database_name_here
+```
+
+5. Run the server
+
+```
+npm start or node index.js
+```
+
+6. Server is running on port 3000
+
+```
+http://localhost:3000
+```
