@@ -35,3 +35,40 @@ we can see that there are 3 collections in the database:
   "thumbnailUrl": String
 }
 ```
+
+## **GET /videos**
+
+Returns all videos thumbnails.
+
+- **URL Params**  
+  None
+- **Data Params**  
+  None
+- **Headers**  
+  None
+- **Success Response:**
+  - Code: 200
+  - Content:
+
+```
+[
+    {
+        "_id": ObjectId,
+        "title": String,
+        "description": String,
+        "thumbnailUrl": String
+    },
+]
+```
+
+- **Success Response:**
+  - Code: 505
+  - Content:
+
+```
+[
+    {
+        "Message": "Server Error"
+    },
+]
+```
