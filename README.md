@@ -66,11 +66,9 @@ Returns all videos thumbnails.
   - Content:
 
 ```
-[
-    {
-        "Message": "Server Error"
-    },
-]
+{
+    "Message": "Server Error"
+}
 ```
 
 ## Product Endpoint
@@ -121,11 +119,9 @@ Returns all products with specified videoID.
   - Content:
 
 ```
-[
-    {
-        "Message": "Server Error"
-    },
-]
+{
+    "Message": "Server Error"
+}
 ```
 
 ## Comment Endpoint
@@ -172,9 +168,7 @@ Returns all comments with specified videoID.
   - Content:
 
 ```
-[
-    {
-        "Message": "Server Error"
-    },
-]
+{
+    "Message": "Server Error"
+}
 ```
