@@ -78,7 +78,7 @@ Returns all videos thumbnails.
 Returns all products with specified videoID.
 
 - **URL Params**  
-  videoID
+  videoID (ObjectId)
 - **Data Params**  
   None
 - **Headers**  
@@ -96,6 +96,43 @@ Returns all products with specified videoID.
         "imageUrl": String,
         "link": String,
         "price": Float
+    },
+]
+```
+
+- **Error Response:**
+  - Code: 505
+  - Content:
+
+```
+[
+    {
+        "Message": "Server Error"
+    },
+]
+```
+
+## **GET /videos/:videoID/comments**
+
+Returns all comments with specified videoID.
+
+- **URL Params**  
+  videoID (ObjectId)
+- **Data Params**  
+  None
+- **Headers**  
+  None
+- **Success Response:**
+  - Code: 200
+  - Content:
+
+```
+[
+    {
+        "_id": ObjectId,
+        "username": String,
+        "comment": String,
+        "timestamp": Date
     },
 ]
 ```
