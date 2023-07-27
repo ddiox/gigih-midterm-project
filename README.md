@@ -230,7 +230,7 @@ copy .env.example .env // Windows User
 4. Open .env file and put your database connection url:
 
 ```
-DATABASE_URL = mongodb://127.0.0.1:27017/put_your_database_name_here
+DB_URL = mongodb://127.0.0.1:27017/put_your_database_name_here
 ```
 
 5. Run the server
