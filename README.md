@@ -236,7 +236,9 @@ DATABASE_URL = mongodb://127.0.0.1:27017/put_your_database_name_here
 5. Run the server
 
 ```
-npm start or node index.js
+npm start
+or
+node index.js
 ```
 
 6. Server is running on port 3000
